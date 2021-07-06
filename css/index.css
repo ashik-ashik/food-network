@@ -2,4 +2,52 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.flexing{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flexing .flex-half{
+  width: 50%;
+}
+img{
+  width: 100%;
+}
+
+#home{
+  padding: 50px 0;
+}
+#home .image img{
+  width: 75%;
+  display: block;
+  margin-left: auto;
+}
+.text h2{
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.text .colored{
+  color: #ff4800;
+}
+.text p{
+  font-size: 16px;
+}
+
+.styled-button{
+  text-decoration: none;
+  padding: 10px 40px;
+  background: linear-gradient(90deg, red, darkorange);
+  display: inline-block;
+  border-radius: 20px;
+  margin-top: 25px;
+  color: #fff;
+  font-weight: 700;
 }
