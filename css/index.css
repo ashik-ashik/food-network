@@ -61,7 +61,7 @@ img{
 #about{
   background: url(../img/shapes/7.png);
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  padding-top: 60px;
 }
 
 #about .image img{
@@ -202,4 +202,22 @@ img{
   font-weight: 500;
   letter-spacing: 2px;
   margin-top: 10px;
+}
+
+#footer{
+  margin-top: 40px;
+  padding: 50px 0 110px;
+  background: #222;
+  color: #fff;
+  text-align: center;
+}
+#footer h1{
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+#footer h1 span{
+  color: darkorange;
+}
+#footer p{
+  font-size: 14px;
 }
