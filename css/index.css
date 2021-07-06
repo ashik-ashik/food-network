@@ -1,4 +1,8 @@
+/* google font import */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* ====================== common design start ====================== */
+
 *{
   margin: 0;
   padding: 0;
@@ -26,7 +30,24 @@ img{
 .sec{
   padding: 50px 0;
 }
+.styled-button{
+  text-decoration: none;
+  font-family: 'Mulish', sans-serif;
+  padding: 14px 40px;
+  background: linear-gradient(90deg, #ff3c00, darkorange);
+  display: inline-block;
+  border-radius: 22px;
+  margin-top: 25px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  box-shadow: 0px 10px 40px #0000001f;
+}
 
+/* ====================== common design end ====================== */
+
+
+/* ====================== header section style start ====================== */
 #header{
   background: #222;
   padding: 15px 0;
@@ -75,7 +96,11 @@ img{
   border-color: transparent;
   background: linear-gradient(270deg, #ff3c00, darkorange);
 }
+/* ====================== header section style end ====================== */
 
+
+
+/* ====================== home section style start ====================== */
 
 #home .image img{
   width: 75%;
@@ -93,20 +118,11 @@ img{
 .text p{
   font-size: 16px;
 }
+/* ====================== home section style end ====================== */
 
-.styled-button{
-  text-decoration: none;
-  font-family: 'Mulish', sans-serif;
-  padding: 14px 40px;
-  background: linear-gradient(90deg, #ff3c00, darkorange);
-  display: inline-block;
-  border-radius: 22px;
-  margin-top: 25px;
-  color: #fff;
-  font-weight: 700;
-  letter-spacing: 1px;
-  box-shadow: 0px 10px 40px #0000001f;
-}
+
+
+/* ====================== about section style start ====================== */
 
 #about{
   background: url(../img/shapes/7.png);
@@ -121,6 +137,11 @@ img{
 #about .text p{
   margin-bottom: 40px;
 }
+/* about section style end */
+
+
+
+/* ====================== common style start ====================== */
 
 .section-title {
   text-align: center;
@@ -138,6 +159,10 @@ img{
 .item-3{
   width: 31%;
 }
+/* ====================== common design end ====================== */
+
+
+/* ====================== recipi section style start ====================== */
 
 #recipi .box{
   padding: 20px;
@@ -154,6 +179,12 @@ img{
   font-size: 17px;
   line-height: 30px;
 }
+/* ====================== recipi section style end ====================== */
+
+
+
+
+/* ====================== reserve section style start ====================== */
 
 #reserve{
   background: url(../img/food/reserve.png) center;
@@ -234,8 +265,11 @@ img{
   background: transparent;
   color: #fff;
 }
+/* ====================== reserve section style end ====================== */
 
 
+
+/* ====================== count section style start ====================== */
 
 #count .count-box{
   box-shadow: 0px 6px 30px #00000028;
@@ -254,6 +288,10 @@ img{
   letter-spacing: 2px;
   margin-top: 10px;
 }
+/* ====================== count section style end ====================== */
+
+
+/* ====================== footer section style start ====================== */
 
 #footer{
   margin-top: 30px;
@@ -273,3 +311,4 @@ img{
   font-size: 14px;
   color: #fff;
 }
+/* ====================== footer section style end ====================== */
