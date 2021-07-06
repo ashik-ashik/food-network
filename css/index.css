@@ -27,6 +27,56 @@ img{
   padding: 50px 0;
 }
 
+#header{
+  background: #222;
+  padding: 15px 0;
+}
+#header #logo{
+  font-size: 25px;
+  color: #fff;
+}
+#header #logo span{
+  color: #fd8905;
+}
+#header .menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+#header .menu li a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #f8f8f8;
+  padding: 7px 12px;
+  transition: 400ms;
+}
+#header .menu li a:hover{
+  color: #ff4800;
+}
+#header .last-item{
+  text-align: end;
+}
+#header .menu-button{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 !important;
+  padding: 10px 25px;
+  border: 2px solid #ff4800;
+  display: inline-block;
+  border-radius: 20px;
+  transition: 400ms;
+}
+#header .menu-button:hover{
+  border-color: transparent;
+  background: linear-gradient(270deg, #ff3c00, darkorange);
+}
+
+
 #home .image img{
   width: 75%;
   margin-left: auto;
@@ -48,7 +98,7 @@ img{
   text-decoration: none;
   font-family: 'Mulish', sans-serif;
   padding: 14px 40px;
-  background: linear-gradient(90deg, red, darkorange);
+  background: linear-gradient(90deg, #ff3c00, darkorange);
   display: inline-block;
   border-radius: 22px;
   margin-top: 25px;
@@ -216,7 +266,7 @@ img{
   font-weight: 600;
 }
 #footer h1 span{
-  color: darkorange;
+  color: #fd8905;
 }
 #footer p{
   font-size: 14px;
