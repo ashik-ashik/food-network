@@ -67,3 +67,35 @@ img{
 #about .text p{
   margin-bottom: 40px;
 }
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-title h1{
+  font-size: 50px;
+  color: #111;
+  margin-bottom: 10px;
+}
+.section-title p{
+  font-size: 15px;
+  color: #111;
+}
+.recipi-item{
+  width: 31%;
+}
+
+#recipi .box{
+  padding: 20px;
+  box-shadow: 0px 10px 30px #00000042;
+  border-radius: 20px;
+}
+#recipi .box h4{
+  font-size: 28px;
+  color: #222;
+  font-weight: 900;
+  margin: 20px 0 15px;
+}
+#recipi .box p{
+  line-height: 28px;
+}
