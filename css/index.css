@@ -43,14 +43,14 @@ img{
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 #header .menu li a{
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
   color: #f8f8f8;
-  padding: 7px 12px;
+  padding: 7px 17px;
   transition: 400ms;
 }
 #header .menu li a:hover{
