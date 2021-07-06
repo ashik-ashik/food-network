@@ -82,7 +82,7 @@ img{
   margin-left: auto;
 }
 .text h2{
-  font-size: 50px;
+  font-size: 48px;
   font-weight: 700;
   margin-bottom: 20px;
   color: #444;
@@ -127,7 +127,7 @@ img{
   margin-bottom: 50px;
 }
 .section-title h1{
-  font-size: 50px;
+  font-size: 36px;
   color: #111;
   margin-bottom: 10px;
 }
@@ -151,7 +151,8 @@ img{
   margin: 20px 0 15px;
 }
 #recipi .box p{
-  line-height: 28px;
+  font-size: 17px;
+  line-height: 30px;
 }
 
 #reserve{
@@ -243,7 +244,7 @@ img{
   text-align: center;
 }
 #count .count-box h1{
-  font-size: 50px;
+  font-size: 48px;
   font-weight: 800;
   letter-spacing: 2px;
 }
@@ -255,19 +256,20 @@ img{
 }
 
 #footer{
-  margin-top: 40px;
+  margin-top: 30px;
   padding: 50px 0 110px;
   background: #222;
-  color: #fff;
   text-align: center;
 }
 #footer h1{
   margin-bottom: 20px;
   font-weight: 600;
+  color: #888;
 }
 #footer h1 span{
   color: #fd8905;
 }
 #footer p{
   font-size: 14px;
+  color: #fff;
 }
