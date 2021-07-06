@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -97,27 +97,109 @@ img{
 #recipi .box h4{
   font-size: 28px;
   color: #222;
-  font-weight: 900;
+  font-weight: 700;
   margin: 20px 0 15px;
 }
 #recipi .box p{
   line-height: 28px;
 }
 
+#reserve{
+  background: url(../img/food/reserve.png) center;
+  background-size: cover;
+  margin: 40px 0;
+  padding: 70px 0;
+}
+#reserve .flexing{
+  align-items: stretch;
+}
+#reserve .reserve-detail{
+  width: 40%;
+  padding: 40px;
+  background: #363636;
+  text-align: center;
+}
+#reserve .box .mini-title{
+  font-size: 14px;
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+}
+#reserve .box h3{
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  margin: 15px 0 20px;
+}
+#reserve .box h5{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 25px 0 10px;
+}
+#reserve .box p{
+  font-size: 13px;
+  color: #fff;
+  line-height: 23px;
+}
+#reserve .box .contact{
+  font-weight: 600;
+  margin-top: 40px;
+}
+#reserve .reserve-form{
+  width: 60%;
+  padding: 40px;
+  background: #CDBA6D;
+}
+#reserve .reserve-form .flexing{
+  margin: 30px 0;
+}
+#reserve .reserve-form .form-half{
+  width: 46%;
+}
+#reserve .reserve-form .form-3{
+  width: 30%;
+}
+
+.reserve-form input{
+  outline: none;
+  border: 1px solid #fff9e1;
+  border-radius: 20px;
+  padding: 12px 20px;
+  background: #DDCD8C;
+  color: #fff;
+  font-size: 13px;
+  width: 100%;
+}
+.reserve-form .submit{
+  transition: 400ms;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  background: #eee;
+  color: #a5965a;
+}
+.reserve-form .submit:hover{
+  background: transparent;
+  color: #fff;
+}
+
+
+
 #count .count-box{
   box-shadow: 0px 6px 30px #00000028;
   padding: 50px 10px;
-  border-radius: 20px;
+  border-radius: 17px;
   text-align: center;
 }
 #count .count-box h1{
   font-size: 50px;
-  font-weight: 900;
+  font-weight: 800;
   letter-spacing: 2px;
 }
 #count .count-box p{
   font-size: 15px;
-  /* font-weight: 500; */
+  font-weight: 500;
   letter-spacing: 2px;
   margin-top: 10px;
 }
